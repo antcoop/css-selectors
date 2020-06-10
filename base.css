@@ -1,0 +1,76 @@
+/* Decendent Selector */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #212121;
+  margin: 0;
+  padding: 20px;
+}
+
+input, button {
+  padding: 12px;
+  font-size: 3rem;
+}
+
+section p {
+  color: red;
+}
+
+section > p {
+  color: goldenrod;
+}
+
+div ~ p {
+  text-decoration: underline;
+}
+
+p:first-child {
+  color: blue;
+}
+
+p:last-child {
+  color: aqua;
+}
+
+span:first-of-type {
+  padding: 20px;
+  background-color: limegreen;
+}
+
+span:last-of-type {
+  padding: 20px;
+  background-color: gainsboro;
+}
+
+p + div {
+  border: 4px dotted blue;
+}
+
+input:invalid {
+  background: lightpink;
+  border: 2px solid darkred;
+}
+
+input:invalid + p::after {
+  content: "You need at least one character";
+  display: block;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+  padding: 0;
+}
+
+input:valid {
+  background: lemonchiffon;
+  border: 2px solid limegreen;
+}
+
+input:valid + p::after {
+  content: "You have the right amount of charcters";
+  display: block;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+  padding: 0;
+  color: green;
+}
