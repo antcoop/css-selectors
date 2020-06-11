@@ -68,7 +68,7 @@ input:invalid + p::after {
 input:valid,
 input:valid:focus {
   background: yellowgreen;
-  border: 2px solid limegreen;
+  border: 2px solid darkgreen;
 }
 
 input:valid + p::after {
