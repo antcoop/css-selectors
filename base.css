@@ -57,7 +57,7 @@ input:invalid:focus {
 }
 
 input:invalid + sub::after {
-  content: "You need at least four characters";
+  content: "You need at least four numerical characters";
   display: block;
   height: 32px;
   width: 100%;
