@@ -66,7 +66,7 @@ input:valid {
 }
 
 input:valid + p::after {
-  content: "You have the right amount of charcters";
+  content: "You have the right amount of characters";
   display: block;
   height: 30px;
   width: 100%;
