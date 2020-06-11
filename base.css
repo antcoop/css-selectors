@@ -46,7 +46,12 @@ p + div {
   border: 4px dotted blue;
 }
 
-input:invalid {
+input {
+  outline: none;
+}
+
+input:invalid,
+input:invalid:focus {
   background: lightpink;
   border: 2px solid darkred;
 }
@@ -60,8 +65,9 @@ input:invalid + p::after {
   padding: 0;
 }
 
-input:valid {
-  background: lemonchiffon;
+input:valid,
+input:valid:focus {
+  background: yellowgreen;
   border: 2px solid limegreen;
 }
 
