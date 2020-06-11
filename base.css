@@ -56,7 +56,7 @@ input:invalid:focus {
   border: 2px solid darkred;
 }
 
-input:invalid + span::after {
+input:invalid + sub::after {
   content: "You need at least four characters";
   display: block;
   height: 32px;
@@ -72,7 +72,7 @@ input:valid:focus {
   border: 2px solid darkgreen;
 }
 
-input:valid + span::after {
+input:valid + sub::after {
   content: "You have the right amount of characters";
   display: block;
   height: 32px;
