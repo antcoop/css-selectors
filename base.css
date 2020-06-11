@@ -52,7 +52,7 @@ input:invalid {
 }
 
 input:invalid + p::after {
-  content: "You need at least one character";
+  content: "You need at least four characters";
   display: block;
   height: 30px;
   width: 100%;
