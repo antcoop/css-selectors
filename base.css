@@ -57,7 +57,7 @@ input:invalid:focus {
 }
 
 input:invalid + sub::after {
-  content: "You need at least four numerical characters";
+  content: "You need at least eight numerical or word based characters";
   display: block;
   height: 32px;
   width: 100%;
@@ -73,7 +73,7 @@ input:valid:focus {
 }
 
 input:valid + sub::after {
-  content: "You have the right amount of characters";
+  content: "You have the right characters";
   display: block;
   height: 32px;
   width: 100%;
